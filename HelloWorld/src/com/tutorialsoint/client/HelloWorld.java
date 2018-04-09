@@ -15,8 +15,8 @@ public class HelloWorld implements EntryPoint {
 	public void onModuleLoad() {
 		 Window.alert("Hello, World! JAVA");
 
- 		//HTML html = new HTML("<p>Welcomic to GWT application ole que tal </p>");
+ 		HTML html = new HTML("<p>Welcomic to GWT application ole que tal JAVA</p>");
 
-		//RootPanel.get("gwtContainer").add(html);
+		RootPanel.get("gwtContainer").add(html);
 	}
 }
